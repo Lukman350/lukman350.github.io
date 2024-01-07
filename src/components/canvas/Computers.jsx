@@ -11,11 +11,11 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={2} groundColor='black' />
+      <hemisphereLight intensity={3} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
-        penumbra={0.8}
+        penumbra={1}
         intensity={1}
         castShadow
         shadow-mapSize={1024}
@@ -36,7 +36,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 500px)");
-    
+
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
