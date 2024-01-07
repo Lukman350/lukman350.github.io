@@ -19,7 +19,6 @@ import typescript from './tech/typescript.png';
 import flutter from './tech/flutter.png';
 import dart from './tech/dart.png';
 import codeigniter from './tech/codeigniter.png';
-import php from './tech/php.png';
 import mysql from './tech/mysql.png';
 
 import multiintegra from './company/multiintegra.png';
@@ -53,7 +52,6 @@ export {
   tailwind,
   typescript,
   codeigniter,
-  php,
   mysql,
   multiintegra,
   mitghelpdesk,

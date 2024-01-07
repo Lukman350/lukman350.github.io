@@ -14,7 +14,6 @@ import {
   flutter,
   dart,
   codeigniter,
-  php,
   mysql,
   multiintegra,
   mitghelpdesk,
@@ -108,10 +107,6 @@ const technologies = [
   {
     name: 'Codeigniter',
     icon: codeigniter,
-  },
-  {
-    name: 'PHP',
-    icon: php,
   },
   {
     name: 'MySQL',
